@@ -1,0 +1,161 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "exe123",
+      "request": "launch",
+      "mainClass": "exe123",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "HCN2",
+      "request": "launch",
+      "mainClass": "HCN2",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "Excute2",
+      "request": "launch",
+      "mainClass": "Excute2",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "XeMay",
+      "request": "launch",
+      "mainClass": "XeMay",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "BaitapTH2",
+      "request": "launch",
+      "mainClass": "BaitapTH2",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "Excute",
+      "request": "launch",
+      "mainClass": "Excute",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "name": "(gdb) Bash on Windows Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "processId": "${command:pickRemoteProcess}",
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Baitapdautien",
+      "request": "launch",
+      "mainClass": "Baitapdautien",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "Baitap3",
+      "request": "launch",
+      "mainClass": "Baitap3",
+      "projectName": "VS CODE_e23728d7"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": ""
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug",
+      "program": "${workspaceFolder}/<executable file>",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
